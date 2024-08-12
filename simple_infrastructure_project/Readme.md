@@ -1,22 +1,22 @@
 ### Simple AWS network infrastructure by using Terraform
 
 **Following resources are created by using above code:**
--VPC
--Public and Private Subnets
--Internet Gateway
--NAT Gateway
--Main and Custom Route Tables
--Instance in public as well as private subnet (Both instance should able to access internet (For Private instance use NAT Gateway for security) and public server should be accessible through internet)
--Security Group
--Key-Pair
+- VPC
+- Public and Private Subnets
+- Internet Gateway
+- NAT Gateway
+- Main and Custom Route Tables
+- Instance in public as well as private subnet (Both instance should able to access internet (For Private instance use NAT Gateway for      security) and public server should be accessible through internet)
+- Security Group
+- Key-Pair
 
 **Please change below resources values according to your design in terraform.tfvars files.**
--vpc-cidr-block = VPC CIDR 
--private-subnet-cidr-block = Subnet CIDR which you want to give to your Private Subnet
--public-subnet-cidr-block = SUBNET CIDR which you want to give to your Public Subnet
--my-region = AWS Region in which you want to create network
--ami-id = Give ami id from aws according to your need
--instance_type = Give instance type according to your need
+- vpc-cidr-block = VPC CIDR 
+- private-subnet-cidr-block = Subnet CIDR which you want to give to your Private Subnet
+- public-subnet-cidr-block = SUBNET CIDR which you want to give to your Public Subnet
+- my-region = AWS Region in which you want to create network
+- ami-id = Give ami id from aws according to your need
+- instance_type = Give instance type according to your need
 
 **This network infrastructure allows :**
 - Ingress ssh, http, https and egress all traffic via internet gateway to EC2 instance in public subnet
