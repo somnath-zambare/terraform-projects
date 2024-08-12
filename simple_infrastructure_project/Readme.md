@@ -1,4 +1,4 @@
-<div align="center"> ### Simple AWS network infrastructure by using Terraform </div> <br>
+### Simple AWS network infrastructure by using Terraform
 
 **Following resources are created by using above code:**
 -VPC
