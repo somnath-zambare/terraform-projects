@@ -1,0 +1,7 @@
+vpc-cidr-block = "10.10.0.0/16"
+private-subnet-cidr-block = "10.10.2.0/24"
+public-subnet-cidr-block = "10.10.1.0/24"
+my-region = "us-west-2"
+ami-id = "ami-0a38c1c38a15fed74"
+instance_type = "t2.micro"
+availability_zone = "us-west-2a"
