@@ -37,7 +37,7 @@ Resources will be created by following above steps
 
  - To clean up run command 'terraform destroy' this will delete all the created resources
 
-#### ✍️Author
+### ✍️Author
 
 **Somnath Zambare**
 
@@ -47,7 +47,7 @@ Resources will be created by following above steps
    
   
   
-#### 🤝 Support
+### 🤝 Support
 
 Contributions, issues, and feature requests are welcome!
 
