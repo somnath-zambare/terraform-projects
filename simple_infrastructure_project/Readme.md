@@ -23,16 +23,16 @@
 - Egress traffic to internet via NAT gateway from private subnet
 
 **Steps to run the code :**
-- 1- Configure IAM user using AWS CLI
-- 2- Copy terraform code in one folder
-- 3- Open VS Code in that folder and open terminal in VS code
-- 4- Run command 'terraform init'
-- 5-After that run command 'terraform plan'
-- 6-Run command 'terraform apply' Give Approval by checking the plan.
-- 7-Replace KeyPair name "OregonKey" in EC2 instance resource with key pair which is avaialble in your AWS and local system.(I will     update this part)
+- Configure IAM user using AWS CLI
+- Copy terraform code in one folder
+- Open VS Code in that folder and open terminal in VS code
+- Run command 'terraform init'
+- After that run command 'terraform plan'
+- Run command 'terraform apply' Give Approval by checking the plan.
+- Replace KeyPair name "OregonKey" in EC2 instance resource with key pair which is avaialble in your AWS and local system.(I will     update this part)
 
 Resources will be created by following above steps
 
 **How to Clean the Environment**                                                                                
 
--8- To clean up run command 'terraform destroy' this will delete all the created resources
+ - To clean up run command 'terraform destroy' this will delete all the created resources
