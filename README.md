@@ -1,5 +1,11 @@
 # Terraform Projects
 
+## Terraform Projects 
+
+**This Repository contains Terraform projects from Basics to Advanced Stages**
+
+**You can download it for your reference.**
+
 ## Introduction to Terraform
 
 Terraform is an open-source infrastructure-as-code (IaC) tool developed by HashiCorp. It allows you to define and provision data center infrastructure using a high-level configuration language known as HashiCorp Configuration Language (HCL), or optionally JSON. Terraform enables you to create, update, and manage infrastructure resources such as virtual machines, databases, networking components, and more, across a variety of service providers including AWS, Azure, Google Cloud, and others.
@@ -174,12 +180,6 @@ The Terraform state file is a crucial component of Terraform's infrastructure-as
 5. **Modularization**:
    - **State Files for Modules**: Use Terraform modules to separate concerns and manage state files for different parts of your infrastructure independently.
 
-
-## Terraform Projects 
-
-**This Repository contains Terraform projects from Basics to Advanced**
-
-- You can download it for your reference
 
 ## ✍️Author
 
