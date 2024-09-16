@@ -1,4 +1,4 @@
-### Simple AWS network infrastructure by using Terraform
+### Simple TWO TIER NETWORK INFRASTRUCTURE on AWS by using Terraform
 
 **Following resources are created by using above code:**
 - VPC
